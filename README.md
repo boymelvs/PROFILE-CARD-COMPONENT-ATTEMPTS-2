@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://github.com/boymelvs/PROFILE-CARD-COMPONENT.git)
-- Live Site URL: [Live site](https://boymelvs.github.io/PROFILE-CARD-COMPONENT/)
+- Solution URL: [My Solution](https://github.com/boymelvs/PROFILE-CARD-COMPONENT-ATTEMPTS-2.git)
+- Live Site URL: [Live site](https://boymelvs.github.io/PROFILE-CARD-COMPONENT-ATTEMPTS-2/)
 
 ### Built with
 
