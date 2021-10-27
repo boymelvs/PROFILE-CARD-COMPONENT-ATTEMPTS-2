@@ -1,0 +1,5 @@
+/* breakpoint @ min-width: 480px */
+
+.name_age_location_container {
+  width: 40rem;
+}

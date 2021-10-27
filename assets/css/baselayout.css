@@ -1,0 +1,114 @@
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --white-color: #fff;
+  --font-size-10: 62.5%; /* 10px */
+  --font-fam-kumbh-sans: "Kumbh Sans", sans-serif;
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+}
+
+html {
+  font-size: var(--font-size-10);
+  font-family: var(--font-fam-kumbh-sans);
+  font-weight: var(--font-weight-400);
+}
+
+body {
+  background-color: var(--dark-cyan);
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+
+  font-size: 1.8rem;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.container {
+  /* to center main content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main_content {
+  background-color: var(--white-color);
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 1.5rem;
+  text-align: center;
+  margin: 1rem 5rem;
+}
+
+.wallpaper {
+  background-image: url("../images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.name_age_location_container {
+  margin-top: 2rem;
+  font-weight: var(--font-weight-700);
+}
+
+.age {
+  color: var(--dark-gray);
+}
+
+.location {
+  color: var(--dark-gray);
+  margin-top: 1.25rem;
+  font-weight: var(--font-weight-400);
+}
+
+.photo img {
+  margin-top: -7rem;
+  border: 0.2rem solid var(--white-color);
+  border-radius: 50%;
+  width: 13rem;
+  height: 13rem;
+}
+
+hr {
+  width: 100%;
+  margin: 3.5rem 0;
+  color: var(--dark-gray);
+}
+
+.stats ul {
+  display: flex;
+  width: 100%;
+  font-weight: var(--font-weight-700);
+  padding: 0 3rem 3rem 3rem;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.stats ul > li span {
+  display: block;
+  font-weight: var(--font-weight-400);
+  letter-spacing: 0.1rem;
+  color: var(--dark-grayish-blue);
+}
+
+footer a {
+  color: var(--very-dark-desaturated-blue);
+  text-decoration: none;
+}

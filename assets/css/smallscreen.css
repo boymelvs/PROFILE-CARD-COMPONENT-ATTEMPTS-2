@@ -1,0 +1,13 @@
+/* breakpoint @ max-width: 480px */
+
+.wallpaper {
+  height: 13rem;
+}
+
+.name_age_location_container {
+  width: 35rem;
+}
+
+footer {
+  font-size: 1.5rem;
+}
