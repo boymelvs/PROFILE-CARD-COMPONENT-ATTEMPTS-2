@@ -23,7 +23,6 @@
 html {
   font-size: var(--font-size-10);
   font-family: var(--font-fam-kumbh-sans);
-  font-weight: var(--font-weight-400);
 }
 
 body {
@@ -71,6 +70,7 @@ body {
 
 .age {
   color: var(--dark-gray);
+  font-weight: var(--font-weight-400);
 }
 
 .location {
